@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'DeineMudda' target in the 'DeineMudda' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#define K_CORNER_RADIUS 8.0f
+#define K_BORDER_WIDTH 1.0f
